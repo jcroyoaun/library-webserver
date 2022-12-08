@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: library-webserver-service
+  labels:
+    app: library-webserver-app
+spec:
+  selector:
+    app: library-webserver-app
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  type: ClusterIP
