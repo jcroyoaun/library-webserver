@@ -4,8 +4,8 @@ This is a study case on how to approach the container creation and architecture 
 
 This app works in conjunction with repos
 
-*library-db
-*library-backend-api
+* library-db
+* library-backend-api
 
 1. Library DB should get started first
 2. Library Backend API should get started second
