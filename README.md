@@ -21,5 +21,5 @@ kubectl apply -f .
 
 2. Run a port forward to expose a port on your local
 ```
-kubectl port-forward service/nginx 8080:80
+kubectl port-forward service/library-webserver-service 8080:80
 ```
